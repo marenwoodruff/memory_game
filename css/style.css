@@ -1,21 +1,26 @@
 body {
     text-align: center;
+    margin: 0;
+}
+
+header {
+    background: #F15B31;
+    padding: 30px 20px;
 }
 
 h1 {
     font-family: "Raleway", sans-serif;
     font-weight: 400;
-    color: #0d2c40;
     letter-spacing: 1px;
     font-size: 45px;
-    margin-top: 50px;
+    margin: 0px;
     text-transform: uppercase;
+    color: #FFF;
 }
 
-p {
-    font-family: "Droid Serif", serif;
-    line-height: 26px;
-    font-size: 18px;
+nav {
+    background: #00A6B3;
+    padding: 20px 0px;
 }
 
 a, h2 {
@@ -27,11 +32,27 @@ a, h2 {
 
 a {
     text-decoration: none;
-    color: #f15b31;
+    color: #FFF;
     font-size: 18px;
+    margin: 0px 20px;
 }
 
 h2 {
     color: #0d2c40;
     font-size: 20px;
+}
+
+main {
+    width: 850px;
+    margin: 0 auto;
+}
+
+p {
+    font-family: "Droid Serif", serif;
+    line-height: 26px;
+    font-size: 18px;
+}
+
+img {
+    margin: 40px 8px 0px;
 }
