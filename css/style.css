@@ -35,6 +35,11 @@ a {
     color: #FFF;
     font-size: 18px;
     margin: 0px 20px;
+    border-bottom: 2px solid transparent;
+}
+
+a:hover {
+    border-bottom: 2px solid white;
 }
 
 h2 {
@@ -54,5 +59,37 @@ p {
 }
 
 img {
-    margin: 40px 8px 0px;
+    margin: 40px 8px;
+}
+
+footer {
+    text-transform: uppercase;
+    padding: 0px 20px;
+    background: #0D2C40;
+    color: white;
+    font-size: 14px;
+    letter-spacing: .08em;
+    font-weight: 500;
+}
+
+.copyright {
+    float: left;
+}
+
+.message {
+    float: right;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+.name {
+    color: #F15B31;
+    font-weight: 700;
 }
